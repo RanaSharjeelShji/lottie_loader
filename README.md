@@ -19,3 +19,18 @@ dependencies:
   lottie_loader:
     git:
       url: https://github.com/yourusername/lottie_loader.git
+```
+``` 
+ final LoaderController _controller = LoaderController();
+```
+```  
+            const LottieLoaderOverlay(
+                  overlayOpacity: 0.6,
+                  child: LoaderWidget(
+                    height: 300,
+                    width: 300,
+                    lottieAnimationPath: 'assets/Animation - 1734834675750.json',
+                    isNetwork: false,
+                  ),
+                ),
+```
