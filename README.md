@@ -1,39 +1,21 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Lottie Loader
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter library for displaying Lottie animations as loaders, with support for both local asset files and network-based Lottie animations. This package includes a customizable overlay and a simple controller to manage the visibility of the loader.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Display Lottie animations from local assets or network URLs.
+- Add an overlay with customizable color and opacity.
+- Easily manage loader visibility using `LoaderController`.
+- Configurable width and height for the loader animation.
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the following line to your `pubspec.yaml` under `dependencies`:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  lottie: ^2.3.2
+  lottie_loader:
+    git:
+      url: https://github.com/yourusername/lottie_loader.git

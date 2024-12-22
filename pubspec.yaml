@@ -1,7 +1,7 @@
 name: lottie_loader
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/RanaSharjeelShji/lottie_loader
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
